@@ -14,6 +14,25 @@ Some of these techniques degrade CPU execution without proportionally affecting 
 - Debug Store + Branch Trace Store (BTS) slowdown
 - Main RAM MTRR policy control (WriteBack / WriteThrough / UnCached)
 
+## Requirements
+
+### Hardware
+- Intel Pentium 4 / NetBurst CPU
+
+### Software
+- DOS environment
+
+### Environment notes
+
+p4tool performs direct MSR access (`RDMSR` / `WRMSR`).
+
+XMS memory managers (extended memory) are not an issue.
+
+However, EMS/EMM memory managers (e.g. EMM386), which typically use virtual 8086 mode, may interfere with MSR access.
+
+Known working example:
+- JEMM386 / JEMMEX based configurations
+ 
 ## Why this tool exists
 
 Traditional Pentium 4 slowdown approaches have strong limitations:
