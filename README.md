@@ -75,4 +75,4 @@ These architectural characteristics enable p4tool to reach performance profiles 
 ## Build
 
 Assemble with NASM:
-nasm -f bin -o p4tool.com src/p4tool.asm
+nasm -f bin src/p4tool.asm -o p4tool.com
