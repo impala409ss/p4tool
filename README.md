@@ -71,5 +71,3 @@ Some DOS programs (e.g. Ultima VII) modify CR0 at runtime, which can re-enable c
 Using IA32_MTRRdefType instead provides stable, system-wide slowdown behavior that is not affected by legacy software.
 
 These architectural characteristics enable p4tool to reach performance profiles not achievable with traditional methods.
-
-## Example usage
