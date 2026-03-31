@@ -2,7 +2,7 @@
 
 DOS performance control tool for Intel Pentium 4 / NetBurst systems
 
-p4tool was created to extend traditional slowdown methods such as ODCM throttling and CR0 cache control by adding techniques that affect CPU execution and memory behavior independently.
+p4tool was created to extend traditional slowdown methods such as ODCM throttling by adding techniques that affect CPU execution and memory behavior independently.
 
 By combining these mechanisms, it becomes possible to balance CPU speed, bus throughput and memory performance, instead of being limited to coarse global slowdown.
 
