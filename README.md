@@ -39,7 +39,7 @@ Traditional Pentium 4 slowdown approaches have strong limitations:
 
 - **ODCM throttling**
   - Reduces CPU throughput
-  - Also reduces external BUS performance proportionally
+  - Also reduces external BUS performance
   - Affects overall system responsiveness (including video and I/O)
 
 - **Cache disabling (CR0)**
